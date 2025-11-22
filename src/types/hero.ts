@@ -44,21 +44,3 @@ export const GetSummaryInformationResponseSchema = z.object({
 export const FavoritesHeroesSchema = z.array(HeroSchema);
 
 export type Hero = z.infer<typeof HeroSchema>;
-
-// const FavoritesSchema = z.array();
-
-// export interface HeroFilters {
-//   search: string
-//   team: string
-//   category: string
-//   universe: string
-//   status: string
-//   minStrength: number
-// }
-
-// export interface PaginationInfo {
-//   currentPage: number
-//   itemsPerPage: number
-//   totalItems: number
-//   totalPages: number
-// }
